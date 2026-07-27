@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#16ac7f"/>
+      <stop offset="100%" stop-color="#168eac"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="180" cy="140" r="220" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="1080" cy="680" r="200" fill="rgba(255,255,255,0.05)"/>
+  <text x="80" y="440" font-family="'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+        font-size="62" font-weight="700" fill="rgba(255,255,255,0.95)">Competitive</text>
+  <text x="80" y="510" font-family="'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+        font-size="62" font-weight="700" fill="rgba(255,255,255,0.95)">Chess Engine</text>
+  <text x="80" y="560" font-family="'Helvetica Neue', Arial, sans-serif"
+        font-size="30" fill="rgba(255,255,255,0.7)">NanoCon 2025 — 1st Place</text>
+</svg>

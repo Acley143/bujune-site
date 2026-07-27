@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#168eac"/>
+      <stop offset="100%" stop-color="#0d1f2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <circle cx="1000" cy="1400" r="280" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="120" cy="180" r="180" fill="rgba(255,255,255,0.05)"/>
+  <text x="80" y="760" font-family="'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+        font-size="76" font-weight="700" fill="rgba(255,255,255,0.95)">C Compiler</text>
+  <text x="80" y="820" font-family="'Helvetica Neue', Arial, sans-serif"
+        font-size="30" fill="rgba(255,255,255,0.7)">Built from scratch in C++</text>
+</svg>
