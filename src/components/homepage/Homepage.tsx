@@ -6,6 +6,10 @@ import { Container } from '@mui/material';
 import { PROJECTS } from 'constants/site';
 import { IntroCard } from './IntroCard';
 import { ProjectCard } from './ProjectCard';
+import { SkillsCard } from './SkillsCard';
+import { ResumeCard } from './ResumeCard';
+import { AchievementsCard } from './AchievementsCard';
+import { GitHubActivityCard } from './GitHubActivityCard';
 
 export function Homepage() {
   const pageDescription = '';
@@ -23,7 +27,11 @@ export function Homepage() {
       <Container sx={{ marginTop: 16 }}>
         <ContentGrid gridRef={gridRef}>
           <IntroCard key="introCard" />
+          <SkillsCard key="skills" turnOnAnimation={turnOnAnimation} />
+          <ResumeCard key="resume" turnOnAnimation={turnOnAnimation} />
           {projectCards}
+          <AchievementsCard key="achievements" turnOnAnimation={turnOnAnimation} />
+          <GitHubActivityCard key="github" turnOnAnimation={turnOnAnimation} />
         </ContentGrid>
       </Container>
     </>

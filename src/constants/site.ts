@@ -38,6 +38,71 @@ export const INTRO_LINKS: Link[] = [
 export const FOOTER_LINKS: Link[] = INTRO_LINKS;
 
 /**
+ * Path to your resume PDF in public/ - shown as a downloadable "Resume" card
+ */
+export const RESUME_URL = '/resume.pdf';
+
+/**
+ * GitHub username used to pull recent public activity client-side (no auth needed)
+ */
+export const GITHUB_USERNAME = 'Acley143';
+
+/**
+ * Chips shown in the Skills card
+ */
+export const SKILLS: string[] = [
+  'Python',
+  'TypeScript',
+  'JavaScript',
+  'Java',
+  'C++',
+  'C',
+  'SQL',
+  'Go',
+  'Rust',
+  'C#',
+  'HTML/CSS',
+  'React',
+  'Node.js',
+  'Spring Boot',
+  'Fastify',
+  'Bun',
+  'Kafka',
+  'Docker',
+  'Kubernetes',
+  'AWS (ECS, S3, RDS)',
+  'Terraform',
+  'Git',
+  'Linux',
+  'SQLite',
+  'OpenTelemetry',
+  'Puppeteer',
+  'Zod',
+  'RESTful APIs',
+  'Microservices',
+  'Distributed Systems',
+  'System Design',
+];
+
+/**
+ * Honors/awards shown in the Achievements card
+ */
+export const ACHIEVEMENTS: { title: string; description: string }[] = [
+  {
+    title: 'Beadle Honors Program',
+    description: 'Selected for academic excellence at Dakota State University, 3.75 GPA',
+  },
+  {
+    title: 'NanoCon 2025 — 1st Place',
+    description: 'Won among 30+ teams for best AI/systems project',
+  },
+  {
+    title: 'Black Students Association — Officer',
+    description: 'Leading community outreach and campus diversity initiatives for 200+ students',
+  },
+];
+
+/**
  * Project cards shown on the homepage. `layout: 'wide'` spans two columns,
  * `layout: 'tall'` spans two rows. Add/remove/edit entries here to update your
  * portfolio - no CMS needed.
