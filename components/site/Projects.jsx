@@ -3,7 +3,22 @@ import Image from "next/image";
 // The two flagships live in Highlights; this grid holds the other ten,
 // newest to oldest. Entries without a live site render a branded placeholder
 // instead of a screenshot.
-// TODO: Fill in remaining projects
+//
+// NOTE: Placeholder projects were cleared on 2026-07-28. The PROJECTS array is
+// currently empty and will render an empty horizontal scroll section.
+//
+// TO ADD PROJECTS: Add objects to the PROJECTS array with this structure:
+// {
+//   name: "Project Name",
+//   href: "https://github.com/username/repo" or "https://live-demo.com",
+//   date: "MONTH YEAR · CONTEXT (e.g., 'NOV 2025 · HACKATHON')",
+//   description: "Short 1-2 sentence description of what this project does.",
+//   stack: "TECH · STACK · SEPARATED · BY · DOTS",
+//   image: "/project-3.svg",  // Use existing SVG placeholders or add screenshots
+//   placeholder: "NO LIVE DEMO"  // Optional: if no live site, omit 'image' and add this
+// }
+//
+// The section expects 10 projects (03-12) but will render however many you add.
 const PROJECTS = [];
 
 const Projects = () => {
