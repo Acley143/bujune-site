@@ -4,33 +4,33 @@ const CASES = [
   {
     meta: (
       <>
-        CASE 01/02 · <b>FLAGSHIP</b> · SINCE DATE · SOLO
+        CASE 01/02 · <b>FLAGSHIP</b> · 2025 · SOLO
       </>
     ),
-    name: "Project One",
-    href: "https://example.com",
-    linkLabel: "VISIT PROJECT ONE ↗",
+    name: "Tracedog",
+    href: "https://github.com/acleybujune/tracedog",
+    linkLabel: "VIEW ON GITHUB ↗",
     description:
-      "Replace with a paragraph describing this flagship project: what it does, the scale/scope, and the interesting technical decisions behind it.",
-    tags: ["Next.js", "TypeScript", "Postgres"],
+      "A deterministic causal intelligence engine that parses OpenTelemetry span trees depth-first to classify each error as root cause or propagated symptom — reducing mean time to root cause from hours to seconds across distributed systems with 0.95 base confidence scoring. Features a feedback-loop memory layer in SQLite so that confirmed failure patterns graduate to learned rules over time, cutting repeat-incident diagnosis time by 70%. Deployed with a Fastify REST API supporting JSON upload, file import, and direct OTel Collector export for seamless integration.",
+    tags: ["TypeScript", "Bun", "React", "Fastify", "SQLite", "OpenTelemetry"],
     image: "/case-1.svg",
-    hud: "CASE_01 // LIVE",
+    hud: "CASE_01 // SYSTEMS",
     reverse: false,
   },
   {
     meta: (
       <>
-        CASE 02/02 · <b>DATE</b> · SOLO
+        CASE 02/02 · <b>AUG–NOV 2025</b> · SOLO
       </>
     ),
-    name: "Project Two",
-    href: "https://example.com",
-    linkLabel: "VISIT PROJECT TWO ↗",
+    name: "C Compiler",
+    href: "https://github.com/acleybujune/c-compiler",
+    linkLabel: "VIEW ON GITHUB ↗",
     description:
-      "Replace with a paragraph describing this second flagship project: the problem it solves and how it works under the hood.",
-    tags: ["Python", "FastAPI"],
+      "A fully functional C compiler built from scratch in C++17 implementing all 5 compilation stages — lexing, parsing, AST generation, code generation, and assembly — so that any C source file can be compiled to binary without external tooling. Features an interactive React frontend visualizing each compilation stage in real time, allowing users to inspect lexer tokens, AST nodes, generated code, and final assembly output step-by-step. Applied recursive descent parsing techniques from this project to architect Tracedog's span tree traversal engine.",
+    tags: ["C++", "Make", "Linux", "Assembly", "React"],
     image: "/case-2.svg",
-    hud: "CASE_02 // LIVE",
+    hud: "CASE_02 // COMPILER",
     reverse: true,
   },
 ];

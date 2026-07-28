@@ -1,9 +1,9 @@
 const LINKS = [
-  { n: "01", label: "GITHUB", href: "https://github.com/your-username" },
+  { n: "01", label: "GITHUB", href: "https://github.com/acleybujune" },
   {
     n: "02",
     label: "LINKEDIN",
-    href: "https://linkedin.com/in/your-username",
+    href: "https://linkedin.com/in/acley-bujune",
   },
   { n: "03", label: "RESUME", href: "/resume.pdf" },
 ];
@@ -32,12 +32,12 @@ const Contact = () => {
 
       <div className="contact-cta">
         <a
-          href="mailto:you@acleybujune.com"
+          href="mailto:acleybujune@gmail.com"
           className="btn btn-solid btn-lg"
           data-magnetic
           data-cursor="SEND"
         >
-          <span>YOU@ACLEYBUJUNE.COM →</span>
+          <span>ACLEYBUJUNE@GMAIL.COM →</span>
         </a>
       </div>
 
@@ -51,8 +51,8 @@ const Contact = () => {
       </div>
 
       <footer className="footer-bar">
-        <span>© 2026 YOUR NAME</span>
-        <span>YOUR CITY, STATE</span>
+        <span>© 2026 ACLEY BUJUNE</span>
+        <span>MADISON, SD</span>
         <span>OPEN TO OPPORTUNITIES</span>
         <span>
           LOCAL{" "}

@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const META = [
-  { k: "LOCATION", v: "Madison , South Dakota" },
+  { k: "LOCATION", v: "Madison, South Dakota" },
   { k: "STATUS", v: "Open to opportunities" },
-  { k: "EDUCATION", v: "B.S. Computer Science with AI specialization · Dakota State University · 2027" },
+  { k: "EDUCATION", v: "B.S. Computer Science · Dakota State University · 2027 · GPA 3.75" },
 ];
 
 const About = () => {
@@ -32,17 +32,14 @@ const About = () => {
         <div className="about-grid">
           <div className="about-main reveal">
             <p className="about-statement">
-              A software engineer who builds <em>real products</em>: replace
-              this statement with your own one-line positioning.
+              A software engineer who builds <em>production systems that ship</em>: from distributed observability platforms to full-stack SaaS, with a focus on systems that scale.
             </p>
             <div className="about-body">
               <p>
-                Replace this paragraph with a couple sentences about what you
-                work on, what stack you use, and what you specialize in.
+                I work across the full stack — TypeScript, React, Node.js, and cloud infrastructure — building systems that handle real-world complexity. My focus is on distributed systems, AI integration, and tools that solve hard problems at scale.
               </p>
               <p>
-                Right now that&rsquo;s <strong>Your Project</strong>, a short
-                line about what it is and your role on it.
+                Right now that&rsquo;s <strong>Tracedog</strong>, a causal intelligence engine that parses distributed traces to identify root causes in production systems, and <strong>Beam</strong>, a financial management platform managing $50K+ in contractor payments for construction projects across East Africa.
               </p>
             </div>
           </div>

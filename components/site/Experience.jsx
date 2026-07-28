@@ -1,21 +1,22 @@
 const EXPERIENCES = [
   {
-    title: "Your Job Title",
-    org: "Company Name · Your City, State",
-    date: "START DATE — PRESENT",
+    title: "Co-Founder & Software Engineer",
+    org: "Elevate Company Limited · Remote",
+    date: "2025 — PRESENT",
     bullets: [
-      "Replace with a bullet describing what you built or shipped, and the concrete outcome (numbers if you have them).",
-      "Replace with another bullet about a specific technical contribution.",
-      "Replace with another bullet about impact or scope.",
+      "Co-founded Elevate Company Limited, a software and technology consultancy delivering custom software, AI consulting, and data engineering solutions to clients across East Africa.",
+      "Architected Beam, a production-ready financial management platform for a construction company built with TypeScript, Bun, and SQLite — managing 3+ active projects, tracking $50,000+ in contractor payments, and delivering real-time profitability reporting across 7 core business domains.",
+      "Designed Beam's layered architecture with strict separation of UI, business logic, and data layers so that the platform can be white-labeled, extended with new modules, or customized for new industries without touching core business logic — cutting estimated onboarding time for new deployments by 50%.",
     ],
   },
   {
-    title: "Previous Job Title",
-    org: "Previous Company · City, State",
-    date: "START DATE — END DATE",
+    title: "Software Engineering Intern",
+    org: "Cobros Logistics · Remote",
+    date: "MAY 2025 — AUGUST 2025",
     bullets: [
-      "Replace with a bullet about what you did in this role.",
-      "Replace with another bullet with a measurable result.",
+      "Developed a full-stack e-commerce logistics portal using React and Node.js so that Tanzanian customers could directly import goods from US retailers for the first time, processing $15,000+ in transactions.",
+      "Constructed a real-time price scraping engine using Puppeteer so that product costs from Amazon and Walmart were instantly converted and displayed in TZS, eliminating pricing errors and saving 20+ weekly admin hours.",
+      "Integrated localized payment gateways (M-Pesa, Tigo Pesa) via secure REST APIs so that unbanked users could complete transactions effortlessly, expanding the client's total addressable market by 35%.",
     ],
   },
 ];

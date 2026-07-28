@@ -1,4 +1,4 @@
-const TAGS = ["WEB APPS", "BACKEND SYSTEMS", "APIS", "CLOUD INFRASTRUCTURE"];
+const TAGS = ["DISTRIBUTED SYSTEMS", "AI ENGINEERING", "FULL-STACK", "CLOUD INFRASTRUCTURE"];
 
 // Per-letter depths (pointer parallax) and scatter vectors (scroll-scrubbed
 // disintegration) — deterministic so SSR matches client.
@@ -61,11 +61,11 @@ const Hero = () => {
           >
             <span aria-hidden="true">
               <span className="hn-line">
-                <Letters word="YOUR" offset={0} />
+                <Letters word="ACLEY" offset={0} />
               </span>
               <span className="hn-line">
-                <Letters word="NAME" offset={4} />
-                <span className="hn-l accent" style={{ "--i": 8 }}>
+                <Letters word="BUJUNE" offset={5} />
+                <span className="hn-l accent" style={{ "--i": 11 }}>
                   <span
                     className="hn-s"
                     style={{ "--sx": "16.0", "--sy": "9.0", "--sr": "38.0" }}
@@ -85,8 +85,7 @@ const Hero = () => {
             </p>
             <div className="hero-copy">
               <p className="hero-lead">
-                Replace this with your own one-line pitch — what you build,
-                what stack you use, and what kind of role you&rsquo;re looking for.
+                Building production systems that scale — from distributed observability platforms to full-stack SaaS — with TypeScript, React, and cloud-native infrastructure.
               </p>
               <div className="hero-tags" aria-hidden="true">
                 {TAGS.map((t) => (

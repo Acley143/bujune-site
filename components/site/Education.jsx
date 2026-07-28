@@ -1,13 +1,16 @@
 const COURSEWORK = [
-  "Data Structures & Algorithms",
-  "Operating Systems",
-  "Databases",
-  "Machine Learning",
-  "Computer Networks",
-  "Software Engineering",
+  "Advanced Data Structures & Algorithms",
+  "Foundations of Computation",
+  "Mathematical Foundations of AI",
+  "Deep Learning",
+  "Artificial Intelligence",
+  "Software Security",
+  "Parallel Computing",
+  "Algorithms and Optimization",
+  "Structure and System Analysis",
 ];
 
-const ASSOCIATIONS = ["Club A", "Club B", "Club C"];
+const ASSOCIATIONS = ["AI Club", "Computer Club", "Black Students Association (Officer)", "Beadle Honors Program"];
 
 const Education = () => {
   return (
@@ -34,9 +37,9 @@ const Education = () => {
 
         <div className="edu-card reveal" style={{ "--i": 1 }}>
           <div className="edu-left">
-            <h3 className="edu-degree">B.S. Your Major</h3>
-            <p className="edu-school">Your University · Your City, State</p>
-            <p className="edu-date">START DATE — END DATE</p>
+            <h3 className="edu-degree">B.S. Computer Science</h3>
+            <p className="edu-school">Dakota State University · Madison, SD</p>
+            <p className="edu-date">AUGUST 2023 — MAY 2027 · GPA 3.75</p>
           </div>
           <div className="edu-right">
             <div className="edu-group">
