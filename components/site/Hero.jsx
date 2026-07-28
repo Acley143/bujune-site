@@ -51,13 +51,13 @@ const Hero = () => {
             <span className="sep" aria-hidden="true">
               {"//"}
             </span>
-            <span>YOUR CITY, STATE</span>
+            <span>MADISON, SD</span>
           </p>
 
           <h1
             className="hero-name"
             data-hero-name
-            aria-label="Your Name — Software Engineer"
+            aria-label="Acley Bujune — Software Engineer"
           >
             <span aria-hidden="true">
               <span className="hn-line">

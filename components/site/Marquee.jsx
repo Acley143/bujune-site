@@ -7,7 +7,7 @@ const LINE_A = (
 
 const LINE_B = (
   <>
-    FULL-STACK ENGINEERING · <b>SHIPPED, NOT DEMOED</b> · YOUR CITY, STATE ·{" "}
+    FULL-STACK ENGINEERING · <b>SHIPPED, NOT DEMOED</b> · MADISON, SD ·{" "}
     <b>OPEN TO OPPORTUNITIES</b> ·{" "}
   </>
 );

@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <nav className="nav" aria-label="Primary">
       <a href="#top" className="nav-brand">
-        <span data-scramble-hover>YOUR NAME</span> <b>{"//"}</b>{" "}
+        <span data-scramble-hover>ACLEY BUJUNE</span> <b>{"//"}</b>{" "}
         <span className="brand-role" data-scramble-hover>
           SOFTWARE ENGINEER
         </span>
