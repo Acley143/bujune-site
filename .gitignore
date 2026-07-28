@@ -1,16 +1,24 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-.turbo
-
 # dependencies
-node_modules
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
 
 # next.js
-.next
-out
+/.next/
+/out/
 
 # production
-build
+/build
 
 # misc
 .DS_Store
@@ -18,15 +26,22 @@ build
 
 # debug
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# local env files
-.env.*.local
-.env
+# env files (can opt-in for committing if needed)
+.env*
 
 # vercel
 .vercel
-tsconfig.tsbuildinfo
-.eslintcache
 
-# Generated files
-*/api/server/generated
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+CLAUDE.md
+
+.claude
+
+.gitignore

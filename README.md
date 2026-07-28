@@ -1,25 +1,36 @@
-# Personal portfolio site
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A Next.js + React + MUI portfolio site, forked from a friend's site and stripped down to a fully
-static build — no CMS, database, or third-party API accounts required.
+## Getting Started
 
-## Editing your content
+First, run the development server:
 
-All of your personal content lives in one file: [`src/constants/site.ts`](src/constants/site.ts).
-Edit `SITE_NAME`, `INTRO`, `INTRO_LINKS`, `FOOTER_LINKS`, and `PROJECTS` there to add your bio,
-social links, and project cards. Put any images you reference (headshot, project thumbnails) in
-`public/`.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Commands
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- `pnpm install` installs all dependencies for the project
-- `pnpm dev` starts the development server
-- `pnpm build` runs a prod build
-- `pnpm serve` runs a server with the built site
-- `pnpm format` runs Prettier to format the files
-- `pnpm lint` / `pnpm lint:types` run ESLint / TypeScript checks
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## Deploying
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-This project deploys to [Vercel](https://vercel.com) with zero configuration. Push to a GitHub
-repo, import it in Vercel, and point your domain (e.g. bujune.com) at the deployment.
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

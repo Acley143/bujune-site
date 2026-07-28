@@ -1,9 +1,0 @@
-{
-  "name": "Your Name",
-  "short_name": "YN",
-  "start_url": "https://bujune.com/?utm_source=manifest",
-  "lang": "en",
-  "background_color": "#ffffff",
-  "theme_color": "#16ac7e",
-  "display": "standalone"
-}
