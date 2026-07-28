@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const META = [
-  { k: "LOCATION", v: "Your City, State" },
+  { k: "LOCATION", v: "Madison , South Dakota" },
   { k: "STATUS", v: "Open to opportunities" },
-  { k: "EDUCATION", v: "B.S. Your Major · Your University · Grad Year" },
+  { k: "EDUCATION", v: "B.S. Computer Science with AI specialization · Dakota State University · 2027" },
 ];
 
 const About = () => {
@@ -51,7 +51,7 @@ const About = () => {
             <div className="about-photo" data-cursor="HELLO">
               <Image
                 src="/headshot.svg"
-                alt="Your Name"
+                alt="Acley Paul Bujune"
                 fill
                 sizes="(max-width: 720px) 90vw, 440px"
               />
