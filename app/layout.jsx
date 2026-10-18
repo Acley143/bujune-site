@@ -24,21 +24,21 @@ const jetbrains = JetBrains_Mono({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://acleybujune.com";
 
 const description =
-  "Software engineer. Replace this description, and everything else on this placeholder page, in the components under components/site/.";
+  "Acley Bujune is a software engineer building distributed systems, full-stack applications, and AI-powered tools. Explore projects, experience, and contact information.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Your Name · Software Engineer",
-    template: "%s · Your Name",
+    default: "Acley Bujune · Software Engineer",
+    template: "%s · Acley Bujune",
   },
   description,
-  applicationName: "Your Name",
-  authors: [{ name: "Your Name", url: siteUrl }],
-  creator: "Your Name",
-  publisher: "Your Name",
+  applicationName: "Acley Bujune",
+  authors: [{ name: "Acley Bujune", url: siteUrl }],
+  creator: "Acley Bujune",
+  publisher: "Acley Bujune",
   keywords: [
-    "Your Name",
+    "Acley Bujune",
     "Software Engineer",
     "Portfolio",
     "Next.js",
@@ -48,23 +48,22 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "Your Name",
-    title: "Your Name · Software Engineer",
+    siteName: "Acley Bujune",
+    title: "Acley Bujune · Software Engineer",
     description,
     images: [
       {
         url: "/headshot.svg",
         width: 1024,
         height: 1280,
-        alt: "Your Name — Software Engineer",
+        alt: "Acley Bujune — Software Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name · Software Engineer",
+    title: "Acley Bujune · Software Engineer",
     description,
-    creator: "@your_handle",
     images: ["/headshot.svg"],
   },
   robots: {
@@ -84,22 +83,22 @@ export const metadata = {
 const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Your Name",
+  name: "Acley Bujune",
   url: siteUrl,
   jobTitle: "Software Engineer",
   description,
   image: `${siteUrl}/headshot.svg`,
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Your City",
-    addressRegion: "ST",
+    addressLocality: "Madison",
+    addressRegion: "SD",
     addressCountry: "US",
   },
   sameAs: [
-    "https://github.com/your-username",
-    "https://linkedin.com/in/your-username",
+    "https://github.com/acleybujune",
+    "https://linkedin.com/in/acley-bujune",
   ],
-  email: "mailto:you@acleybujune.com",
+  email: "mailto:acleybujune@gmail.com",
 };
 
 // Runs before first paint: tags the doc as JS-capable (gates reveal-hiding
